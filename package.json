@@ -1,0 +1,25 @@
+{
+  "name": "odin--basic-infromation-site",
+  "version": "1.0.0",
+  "description": "This is a simple webpage that build with nodejs server.It contains four more page that is index.html,about.html,contact-me.html,404.html.",
+  "main": "server.js",
+  "scripts": {
+    "start":"node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZTanvir/Odin--Basic-Infromation-Site.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Server",
+    "Webpage"
+  ],
+  "author": "Zahirul Islam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZTanvir/Odin--Basic-Infromation-Site/issues"
+  },
+  "homepage": "https://github.com/ZTanvir/Odin--Basic-Infromation-Site#readme"
+}

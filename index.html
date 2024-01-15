@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sundarbans</title>
+    <style>
+      *,
+      html {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        box-sizing: border-box;
+      }
+
+      html {
+        width: 100%;
+        height: 100%;
+      }
+      .container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #bc6c25;
+        color: #fefae0;
+      }
+      .container h1 {
+        font-size: 4rem;
+        margin: 1rem;
+      }
+      .container p {
+        font-size: 1.2rem;
+        margin: 1rem;
+      }
+      .container button {
+        padding: 0.7rem 2rem;
+        font-size: 1rem;
+        min-width: 90px;
+        cursor: pointer;
+        border-radius: 1rem;
+      }
+      .container button:hover {
+        box-shadow: 10px 10px 5px -4px rgba(71, 70, 70, 0.18);
+        -webkit-box-shadow: 10px 10px 5px -4px rgba(71, 70, 70, 0.18);
+        -moz-box-shadow: 10px 10px 5px -4px rgba(71, 70, 70, 0.18);
+      }
+      .container a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Sundarbans</h1>
+      <p>
+        Sundarbans is a mangrove area in the delta formed by the confluence of
+        the Ganges, Brahmaputra and Meghna Rivers in the Bay of Bengal.
+        Sundarban Reserve Forest (SRF) of Bangladesh is the largest mangrove
+        forest in the world.
+      </p>
+      <div class="links">
+        <a href="http://localhost:8000/about"
+          ><button class="about-btn">About</button></a
+        >
+
+        <a href="http://localhost:8000/visit"
+          ><button class="visit-btn">Visit</button></a
+        >
+      </div>
+    </section>
+  </body>
+</html>
