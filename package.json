@@ -4,7 +4,7 @@
   "description": "This is a simple webpage that build with nodejs server.It contains four more page that is index.html,about.html,contact-me.html,404.html.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
